@@ -1,0 +1,60 @@
+@import url(https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap);
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+  margin: 0;
+}
+
+h1,
+h2,
+h3,
+p,
+ul {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+ul {
+  list-style: none;
+  padding-left: 0;
+  margin-top: 1em;  /* Margen superior de 1em */
+    /* Margen inferior de 1em */
+  
+}
+
+/* Estilos de elementos de formulario */
+
+input,
+button {
+  font-family: inherit;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+button {
+  cursor: pointer;
+  background-color: blueviolet;
+  color: whitesmoke;
+  border-radius: 0.6em;
+  margin-top: 1em;
+  padding: 0.5em;
+  border: none;
+}
+
+button:hover {
+  background-color: darkviolet;
+  color: white;
+  filter: brightness(1.2);
+}
+
+
+img {
+  display: block;
+  width: 100%;
+}
